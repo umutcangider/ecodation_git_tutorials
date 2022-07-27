@@ -3,7 +3,12 @@ git -v
 
 git status
 git log
+git add .
+git commit -m "commit mesaji"
+git push
 
+#Yazdığımız Commit mesajını değiştirmek istiyorsak.
+git commit --amend - m "yen' commit mesajımız."
 
 clear
 cat >> dosyaAdı.txt
