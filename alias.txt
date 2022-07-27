@@ -1,0 +1,2 @@
+git config --global alias.KisaltmaninAdi "log --all --graph -- decorate --oneline"
+git KisaltmaninAdi
