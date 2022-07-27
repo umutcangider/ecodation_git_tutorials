@@ -1,0 +1,9 @@
+git --version
+git -v
+
+git status
+git log
+
+
+clear
+cat >> dosyaAdı.txt
