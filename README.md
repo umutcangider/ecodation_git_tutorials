@@ -14,8 +14,6 @@ git push -u origin main
 ---
 
 ```sh
-stash: add yaptıkran sonra commit öncesinde git tarafında saklanacak veriler demektir.
-UNUTMAAAA: stash yapmadan önce  yapmalısın ==> git add .
 git stash
 git stash list
 git stash save "stash adim"
