@@ -4,3 +4,10 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/umutcangider/ecodation_git_tutorials.git
 git push -u origin main
+
+git status
+git log
+
+
+clear
+cat >> dosyaAdı.txt
