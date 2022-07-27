@@ -1,5 +1,7 @@
 git branch => Olan branchleri gösterir.
 
+--------------------------------------------
+---FAST FORWARD---
 git branch yeniBranchIsmi
 git checkout yeniBranchIsmi
 cat >> data.txt
@@ -10,6 +12,13 @@ git push -u origin frontend
 git checkout main
 git merge frontend (Fast Forward)
 
+--------------------------------------------
+git checkout -b backend
+cat >> data.txt
+git add .
+git commit -m "backend data"
+git push -u origin backend
+git merge --no-ff frontend (No Fast Forward)
 
 
 
