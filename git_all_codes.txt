@@ -1,14 +1,30 @@
 git --version
 git -v
 
+clear
+cat >> dosyaAdı.txt
+
+######################################################################
 git status
 git log
 git add .
 git commit -m "commit mesaji"
 git push
 
-#Yazdığımız Commit mesajını değiştirmek istiyorsak.
+# Commit ve Push
+git commit -a -m "commit" => Commit ve mesaji ayni anda yapar.
+
+# Yazdığımız Commit mesajını değiştirmek istiyorsak.
 git commit --amend - m "yen' commit mesajımız."
 
-clear
-cat >> dosyaAdı.txt
+# Clone
+git clone https://github.com/umutcangider/ecodation_git_tutorials
+
+######################################################################
+
+# Bazen kodlarımıza add yaparız sonrasında acil bir iş gelir bu yazdıklarımızı commitlemek
+istemeyiz bu durumda "stash" yaparız. (stash = araf)
+
+
+
+
