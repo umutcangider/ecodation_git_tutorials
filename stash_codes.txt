@@ -1,0 +1,13 @@
+UYARI: git stash yapmadan önce git add . yapmalısın.
+stash: add yaptıktan sonra commit öncesinde git tarafından saklanacak veriler demektir.
+
+git stash
+git stash list
+git stash save "stash adım"
+git stash apply stash@{0}
+
+git stash pop
+git stah drop stash@{0}
+
+
+
